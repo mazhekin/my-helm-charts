@@ -17,4 +17,4 @@ helm repo update
 https://mazhekin.github.io/my-helm-charts/
 
 
-helm search repo <repo-name>
+helm search repo mazh-githib
