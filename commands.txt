@@ -1,0 +1,11 @@
+#check for errors
+helm lint charts/test-cicd-chart
+
+# pack chart
+helm package charts/test-cicd-chart
+
+# generate repo index
+helm repo index . --url https://mazhekin.github.io/my-helm-charts
+
+Warning: if you add new charts later, use flag --merge:
+helm repo index . --url https://mazhekin.github.io/my-helm-charts --merge index.yaml

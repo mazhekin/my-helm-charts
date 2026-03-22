@@ -1,0 +1,9 @@
+
+replicaCount: 1
+
+image:
+  name: mazhekin/test-cicd-app
+  tag: 0.0.6
+
+ingress:
+  host: test-cicd-app-dev.mazhekin.ru
