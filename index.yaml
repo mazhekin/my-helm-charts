@@ -3,7 +3,7 @@ entries:
   test-cicd-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-03-22T16:30:49.8912739+02:00"
+    created: "2026-03-22T16:45:14.6267193+02:00"
     description: A Helm chart for Kubernetes
     digest: 58590967a34173901f6d80b776b2577389753b4719ce23b1dc2f02ea9bf624c7
     name: test-cicd-chart
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://mazhekin.github.io/my-helm-charts/test-cicd-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-22T16:30:49.8907074+02:00"
+generated: "2026-03-22T16:45:14.6261894+02:00"
