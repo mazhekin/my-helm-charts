@@ -11,6 +11,8 @@ spec:
       app: test-cicd-app
   template:
     metadata:
+      annotations:
+        rollme: {{ randAlphaNum 5 | quote }}
       labels:
         app: test-cicd-app
     spec:
